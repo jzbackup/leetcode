@@ -1,0 +1,9 @@
+1. use git shell, not the GUI program
+2. in git shell, use "gitk" to try a gui program
+3. ls to check current dir
+4. cd to change directory
+5. git status to check file status under current dir
+6. git add. add all files into local repo(head)
+7. git commit -m"blabla" commit the changes of this time
+8. git push -u origin master push the changes to git repo
+9. git remote -v check which repo you are connecting to
