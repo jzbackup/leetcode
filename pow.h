@@ -19,4 +19,5 @@ public:
         	return pre*pre;
         else
         	return pre*pre*x;
-    }};
+    }
+};
