@@ -7,3 +7,16 @@
 7. git commit -m"blabla" commit the changes of this time
 8. git push -u origin master push the changes to git repo
 9. git remote -v check which repo you are connecting to
+
+10. 要把已有的文件夹同步到GitHub：
+1. 新建一个远程仓库 直接在网页端操作
+2. 打开git终端，cd到想要同步的文件夹
+3. git init
+4. git add .
+5. git commit -m 'orz'
+6. 把这个文件夹连接到我们刚刚建立的远程仓库
+7. git remote add myname https://github.com/zhaox357/wb.git
+8. git push myname master
+
+这里git是通过你登录了之后来验证你的身份的，登录身份不对的话，是没法做这些的
+另外git的版本必须要保持最新
