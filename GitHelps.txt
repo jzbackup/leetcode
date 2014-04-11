@@ -20,3 +20,16 @@
 
 这里git是通过你登录了之后来验证你的身份的，登录身份不对的话，是没法做这些的
 另外git的版本必须要保持最新
+
+拿到更新的改动
+1. git pull myname master
+拿到myname仓库里master分值的最新文件
+2. 修改这些文件
+3. git status 会看到文件的改动情况
+
+
+将本地更新上传到仓库
+
+4. 这时候必须要再次git add你想要push上去的文件
+4. git commit -m ''
+5. git push myname master
